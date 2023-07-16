@@ -1,0 +1,90 @@
+body{
+    position: fixed;
+    width: 100%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    margin-left: 80px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 80px;
+}
+header ul li{
+    padding: 25px;
+    display: inline-block;
+}
+header ul li a{
+    text-decoration-line: none;
+    color: black;
+    font-size: 20px;
+}
+.content{
+    width: 100%;
+    height: 0px;
+}
+.content .t_box{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 80px;
+    height: 100%;
+}
+.content .t_box h2{
+    font-size: 70px;
+    font-weight: bold;
+}
+.content .t_box span{
+    margin-left: 20px;
+    font-size: 90px;
+    color: green;
+}
+.content .t_box p{
+    position: absolute;
+    margin-top: 250px;
+    font-size: 20px;
+}
+.content .t_box a{
+    margin-top: 75px;
+    font-size: 22px;
+    display: inline-block;
+    text-decoration-line: none;
+    background-color: green;
+    color: black;
+    width: 150px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.content .i_box{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 50%;
+}
+.content .i_box img{
+    margin-left: 1550px;
+}
+.content .thumb{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.content .thumb li{
+    margin-top: 410px;
+    padding: 10px;
+    transform: translateX(-60%);
+    transform: translateY(10s);
+}
+.thumb :hover{
+    transform: translateY(-15px);
+}
+.content .thumb img{
+    max-width: 80px;
+}

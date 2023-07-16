@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>StarBucks</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <img src="img.projeto2/starbucks_logo.png" width="80px">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">What's New</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <div class="content">
+    <div class="t_box">
+        <h2>It's not just coffee<br>
+        It's<span>Starbucks</span></h2><p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>
+        tempor incididunt ut labore et dolore magna aliqua. ut enim ad minin<br>
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea<br>
+        commodo consequat.</p><a href="#">LEARN MORE</a>
+    </div>
+    <div class="i_box">
+        <img src="img.projeto2/starbucks1.png" class="pepsi" width="380px">
+        </div>
+        <ul class="thumb">
+            <li><img src="img.projeto2/thumb1.png"onclick="imgSlider('img.projeto2/thumb1.png')"></li>
+            <li><img src="img.projeto2/thumb2.png"onclick="imgSlider('img.projeto2/thumb2.png')"></li>
+            <li><img src="img.projeto2/thumb3.png"onclick="imgSlider('img.projeto2/thumb3.png')"></li>
+        </ul>
+        <script type="text/javascript">
+            function imgSlider(anything){
+                document.querySelector('.pepsi').src = anything;
+            }
+        </script>
+    </body>        
+</html>
